@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>client</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="stylesheet/clienthomepage.css">
+</head>
+<body>
+<div id="container">
+    <div>
+    <form action="client.php" method="post">
+        <label for="username">User name</label>
+        <input type="text" id="username" name="username">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <label for="origin">Origin:</label>
+        <select  id="origin" name="origin">
+            <option></option>
+            <option>Baragoi</option>
+            <option>Bungoma</option>
+            <option>Busia</option>
+            <option>Butere</option>
+            <option>Dadaab</option>
+            <option>Diani Beach</option>
+            <option>Eldoret</option>
+            <option>Emali</option>
+            <option>Embu</option>
+            <option>Garissa</option>
+            <option>Gede</option>
+            <option>Hola</option>
+            <option>Homa Bay</option>
+            <option>Isiolo</option>
+            <option>Kitui</option>
+            <option>Kibwezi</option>
+            <option>Kajiado</option>
+            <option>Kakamega</option>
+            <option>Kakuma</option>
+            <option>Kapenguria</option>
+            <option>Kericho</option>
+            <option>Keroka</option>
+            <option>Kiambu</option>
+            <option>Kilifi</option>
+            <option>Kisii</option>
+            <option>Kisumu</option>
+            <option>Kitale</option>
+            <option>Lamu</option>
+            <option>Langata</option>
+            <option>Litein</option>
+            <option>Lodwar</option>
+            <option>Lokichoggio</option>
+            <option>Londiani</option>
+            <option>Loyangalani</option>
+            <option>Machakos</option>
+            <option>Makindu</option>
+            <option>Malindi</option>
+            <option>Mandera</option>
+            <option>Maralal</option>
+            <option>Marsabit</option>
+            <option>Mombasa</option>
+            <option>Moyale</option>
+            <option>Meru</option>
+            <option>Mumias</option>
+            <option>Muranga</option>
+            <option>Mutomo</option>
+            <option>Nairobi</option>
+            <option>Naivasha</option>
+            <option>Nakuru</option>
+            <option>Namanga</option>
+            <option>Nanyuki</option>
+            <option>Naro Moru</option>
+            <option>Narok</option>
+            <option>Nyahururu</option>
+            <option>Nyeri</option>
+            <option>Ruiru</option>
+            <option>Shimoni</option>
+            <option>Takaungu</option>
+            <option>Thika</option>
+            <option>Vihiga</option>
+            <option>Voi</option>
+            <option>Wajir</option>
+            <option>Watamu</option>
+            <option>Webuye</option>
+            <option>Wote</option>
+            <option>Wundanyi</option>
+            <option>Kasarani</option>
+        </select>
+        <label for="destinattion">Destination:</label>
+        <select  id="destinattion" name="destination">
+            <option></option>
+            <option>Baragoi</option>
+            <option>Bungoma</option>
+            <option>Busia</option>
+            <option>Butere</option>
+            <option>Dadaab</option>
+            <option>Diani Beach</option>
+            <option>Eldoret</option>
+            <option>Emali</option>
+            <option>Embu</option>
+            <option>Garissa</option>
+            <option>Gede</option>
+            <option>Hola</option>
+            <option>Homa Bay</option>
+            <option>Isiolo</option>
+            <option>Kitui</option>
+            <option>Kibwezi</option>
+            <option>Kajiado</option>
+            <option>Kakamega</option>
+            <option>Kakuma</option>
+            <option>Kapenguria</option>
+            <option>Kericho</option>
+            <option>Keroka</option>
+            <option>Kiambu</option>
+            <option>Kilifi</option>
+            <option>Kisii</option>
+            <option>Kisumu</option>
+            <option>Kitale</option>
+            <option>Lamu</option>
+            <option>Langata</option>
+            <option>Litein</option>
+            <option>Lodwar</option>
+            <option>Lokichoggio</option>
+            <option>Londiani</option>
+            <option>Loyangalani</option>
+            <option>Machakos</option>
+            <option>Makindu</option>
+            <option>Malindi</option>
+            <option>Mandera</option>
+            <option>Maralal</option>
+            <option>Marsabit</option>
+            <option>Mombasa</option>
+            <option>Moyale</option>
+            <option>Meru</option>
+            <option>Mumias</option>
+            <option>Muranga</option>
+            <option>Mutomo</option>
+            <option>Nairobi</option>
+            <option>Naivasha</option>
+            <option>Nakuru</option>
+            <option>Namanga</option>
+            <option>Nanyuki</option>
+            <option>Naro Moru</option>
+            <option>Narok</option>
+            <option>Nyahururu</option>
+            <option>Nyeri</option>
+            <option>Ruiru</option>
+            <option>Shimoni</option>
+            <option>Takaungu</option>
+            <option>Thika</option>
+            <option>Vihiga</option>
+            <option>Voi</option>
+            <option>Wajir</option>
+            <option>Watamu</option>
+            <option>Webuye</option>
+            <option>Wote</option>
+            <option>Wundanyi</option>
+            <option>Kasarani</option>
+        </select>
+
+        <label for="capacity">Capacity:</label>
+        <input type="number" id="capacity" name="capacity">
+
+        <div id="lower">
+            <input type="checkbox"><label for="checkbox">Keep me logged in</label>
+            <input type="submit" value="Login">
+        </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" rel="script" src="js/client.js"></script>
+</body>
+</html>

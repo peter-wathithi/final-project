@@ -1,0 +1,18 @@
+#textbox {
+    padding:10px;
+    border-radius:5px;
+    border:0;
+    box-shadow:0 0 4px 0 rgba(0,0,0,0.2)
+}
+.row img {
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    vertical-align:middle;
+}
+.row {
+    padding:10px;
+}
+.row:hover {
+    background-color:#eee
+}

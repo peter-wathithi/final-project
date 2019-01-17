@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<meta charset="UTF-8">
+<title>ShareRide</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="stylesheet/home%20page.css">
+<body class="news">
+<header>
+    <div class="logo">
+        <img src="photos/share%20ride.png">
+    </div>
+    <div class="nav">
+        <ul>
+            <li class="home"><a href="#">Home</a></li>
+            <li class="registry"><a href="registry.html">Driver</a></li>
+            <li class="client"><a href="client.html">Client</a></li>
+            <li class="map"><a href="#">Map</a></li>
+        </ul>
+    </div>
+</header>
+</body>
+<nav class="w3-bar w3-black">
+    <div id="slideshow">
+        <div class="slide-wrapper">
+            <div class="slide"><h1 class="slide-number"><img src="photos/logo3.png" style="width: 40%" height="142"></h1></div>
+            <div class="slide"><h1 class="slide-number"><img src="photos/logo2.jpg" style="width: 40%" height="201"></h1></div>
+            <div class="slide"><h1 class="slide-number"><img src="photos/34.png" style="width: 40%" height="150"></h1></div>
+            <div class="slide"><h1 class="slide-number"><img src="photos/images%20(18).jpg" style="width: 40%" height="176"></h1>
+            </div>
+            <div class="slide"><h1 class="slide-number"><img src="photos/images%20(17).jpg" style="width: 40%" height="224"></h1>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content" style="text-align: center">
+    <h1 class="w3-wide"><b><u>SHARE RIDE CABS</u></b></h1>
+    <h2 class="w3-opacity"></h2>
+    <p class="w3-justify">
+        <i>
+            <b>
+            Here at Share Ride Cabs we take travelling to a whole new level where we satisfy our customer with luxurious travelling
+            style.
+            We offer various types of vehicles for our clients be it Saloon cars,vans,buses and SUV we got it all here at Share Ride Cabs.
+            We offer cheap and fair prices for our clients according to the distance travelling by the client.
+            All services are displayed in the Shared Inc web application
+            </b>
+        </i>
+    </p>
+</section>
+
+<!-- Band Members -->
+<section class="sec">
+    <article class="photos">
+        <p><b><i><u>John Doe</u></i></b></p>
+        <img class="images" src="photos/download%20(1).jpg" alt="Random Name" style="width:100%">
+        <p><b><i>John Doe Driver of the month.</i></b></p>
+    </article>
+    <article class="photos">
+        <p><b><i><u>Susan Doe</u></i></b></p>
+        <img class="images" src="photos/images%20(4).jpg" alt="Random Name" style="width:100%">
+        <p><b><i>Female Driver of the month.</i></b></p>
+    </article>
+    <article class="photos">
+        <p><b><i><u>Ringo Doe</u></i></b></p>
+        <img class="images" src="photos/images%20(14).jpg" alt="Random Name" style="width:100%">
+        <p><b><i>Best driver of the year.</i></b></p>
+    </article>
+</section>
+
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+    <a href="#"><i class="fa fa-pinterest-p"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-flickr"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <p class="w3-medium">
+        Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Final Project</a>
+    </p>
+</footer>
+
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+            myIndex = 1
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 3000);
+    }
+</script>
+
+</body>
+</html>
